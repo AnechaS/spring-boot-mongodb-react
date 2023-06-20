@@ -1,16 +1,35 @@
 # spring-boot-mongodb-react
 
-## Backend
+## `Backend`
+
+#### Installation Dependencies
 
 ```bash
-mvn install
-mvn spring-boot:run
+$ mvn install
 ```
 
-## Frontend
+#### Configuration
+
+Change you config in [application.properties](./backend/src/main/resources/application.properties)
+
+#### Run
 
 ```bash
-npm install
-npm build & npm start
+$ mvn spring-boot:run
+```
+
+## `Frontend`
+
+#### Installation Dependencies
+
+```bash
+$ npm install
+```
+
+#### Run
+
+```bash
+$ npm build 
+$ npm start
 ```
 
